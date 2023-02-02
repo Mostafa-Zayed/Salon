@@ -53,7 +53,9 @@ use App\Http\Controllers\v1\RegisterRequestController;
 // Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 //     return $request->user();
 // });
-
+Route::get('/test',function(){
+    echo 'test';
+});
 Route::get('/', function () {
     return [
         'app' => 'Ultimate Salon Appointments API by initappz',
