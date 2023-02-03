@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return [
-        'app' => 'Ultimate Salon Appointments API by initappz',
+        'app' => 'ERP TEC Salon Appointments API by initappz',
         'version' => '1.0.0',
     ];
 });
